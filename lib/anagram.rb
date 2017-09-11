@@ -5,6 +5,8 @@ class Anagram
     @name = name
   end
   def match(array)
-    []
+    array.each {|word|
+      puts word
+    }
   end
 end
