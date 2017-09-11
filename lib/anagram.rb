@@ -6,7 +6,10 @@ class Anagram
   end
   def match(array)
     array.each {|word|
-      puts word
+        if word.sort == @name.sort
+          return @name
+        end
     }
   end
+  []
 end
